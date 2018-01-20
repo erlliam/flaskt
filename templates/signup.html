@@ -1,0 +1,13 @@
+{% extends "LAYOUT.html" %}
+{% block title %}
+Sign up
+{% endblock %}
+{% block body %}
+	<h1>Join Flaskt</h1>
+
+	<form method="post">
+		<input type="text" name="username" required size="10" minlength="3" maxlength="8">
+		<input type="password" name="password" required size="10" minlength="3" maxlength="8">
+		<input type="submit" value="Sign up">
+	</form>
+{% endblock %}
